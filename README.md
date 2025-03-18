@@ -1,6 +1,6 @@
 # Identify-anything
 本项目灵感源自于神奇宝贝的我是谁名梗，可以上传一张图片通过调用大模型识别内容，合成语音最后合成视频复刻名场面  
-![image](https://github.com/user-attachments/assets/74381c20-a514-44d5-93af-7bedc5e48cdd)
+![image](https://github.com/user-attachments/assets/bc3ca0da-dddb-4c9e-8572-c2c39bfe57b7)
 目前在视频前半部分的图原本应该是纯黑图片但是目前还未实现该功能故暂时用二值化图像代替，后续打算尝试使用segment-anything来尝试分离出识别的主体并制作纯黑底图。  
 以下是关于大模型使用的介绍  
 本项目采用了gpt-4o以及百度的语音合成模型您需要获取对应的api-key.  
